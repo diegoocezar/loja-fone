@@ -1,0 +1,25 @@
+header {
+    background-color: #e24647;
+    color: #fff;
+    overflow: hidden;
+}
+
+nav {
+    font-family: 'Segoe UI', "Roboto", sans-serif;
+    float: right;
+    font-size: 21px;
+}
+
+
+
+h1 {
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 40px;
+    float: left;
+   
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
