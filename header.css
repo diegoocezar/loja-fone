@@ -3,7 +3,9 @@ header {
     color: #fff;
     overflow: hidden;
     padding: 55px 60px;
+    width: 80%;
     margin: 0 116px;
+
 }
 
 nav {
@@ -24,5 +26,18 @@ h1 {
 a {
     text-decoration: none;
     color:inherit;
-    padding-left: 60px;
+    margin-left: 60px;
+}
+
+.button {
+    
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0 60px;
+}
+
+.comprar-button {
+    border: none;
+    background: #252c41;
 }
