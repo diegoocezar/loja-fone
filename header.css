@@ -4,8 +4,10 @@ header {
     overflow: hidden;
     padding: 55px 60px;
     width: 80%;
-    margin: 0 116px;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav {
