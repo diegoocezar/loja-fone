@@ -1,0 +1,27 @@
+.header-store {
+    
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.navigation {
+    font-family: 'Segoe UI', "Roboto", sans-serif;
+    float: right;
+    font-size: 21px;
+}
+
+
+
+.title {
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 40px;
+    float: left;
+   
+}
+
+.action {
+    text-decoration: none;
+    color:inherit;
+    margin-left: 60px;
+}
