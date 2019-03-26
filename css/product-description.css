@@ -5,10 +5,16 @@
 
 .product-description dt {
     font-size: 25px;
+    margin-bottom: 100px;
 }
 
 .product-description dd {
     font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.product-description dd:first-of-type {
+    margin-bottom: 28px;
 }
 
 .product-description .description {
@@ -18,4 +24,17 @@
 .description a {
     text-decoration: none;
     color: inherit;
+}
+
+.product-description .description {
+    margin-bottom: 38px;
+}
+
+.product-description .-last {
+    margin-bottom: 100px;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 38px;
 }
