@@ -1,0 +1,21 @@
+.product-description {
+    font-family: "Roboto", Arial, sans-serif;
+    
+}
+
+.product-description dt {
+    font-size: 25px;
+}
+
+.product-description dd {
+    font-size: 20px;
+}
+
+.product-description .description {
+    font-size: 18px;
+}
+
+.description a {
+    text-decoration: none;
+    color: inherit;
+}
