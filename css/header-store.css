@@ -2,26 +2,28 @@
     
     color: #fff;
     overflow: hidden;
-    
+    margin-bottom: 138px;
 }
 
-.navigation {
+.header-store > .title {
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 40px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.header-store > .navigation {
     font-family: 'Segoe UI', "Roboto", sans-serif;
     float: right;
     font-size: 21px;
 }
 
-
-
-.title {
-    font-family: Arial, "Roboto", sans-serif;
-    font-size: 40px;
-    float: left;
-   
-}
-
-.action {
+.header-store .action {
     text-decoration: none;
     color:inherit;
-    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.header-store .action.-last {
+    margin-right: 0;
 }
