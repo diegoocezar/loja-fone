@@ -13,6 +13,14 @@
     margin-bottom: 28px;
 }
 
+.product-description > .item.-star {
+    margin-bottom: 10px;
+}
+
+.product-description > .item.-star + .item {
+    margin-left: 7px;
+}
+
 .product-description > .item.-info {
   width: 200px;
   text-align: right;
@@ -33,14 +41,14 @@
     margin-bottom: 30px;
 }
 
+.product-description > .text.-more {
+    margin-bottom: 0;
+}
+
 .product-description .action {
     text-decoration: none;
     color: inherit;
 }
 
-.stars > li{
-    display: inline-block;
-    margin-bottom: 25px;
-    margin-right: 9px;
-}
+
 
