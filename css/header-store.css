@@ -28,3 +28,19 @@
 .header-store .action.-last {
     margin-right: 0;
 }
+
+#search {
+    width: 360px;
+    margin-right: 65px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#search::placeholder {
+    color: #fff;
+    font-family: inherit;
+    }
