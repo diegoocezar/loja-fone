@@ -6,6 +6,7 @@
 .product-description dt {
     font-size: 25px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .product-description dd {
@@ -37,4 +38,15 @@
 .button {
     display: inline-block;
     margin-right: 38px;
+}
+
+.description-page {
+    display: flex;
+}
+
+img {
+    background-color: #fff;
+    border-radius: 0 150px 150px 0;
+    margin-top: 100px;
+    margin-right: 107px;
 }
