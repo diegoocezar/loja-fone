@@ -30,3 +30,7 @@
     border: none;
     text-decoration: none;
 }
+
+.buttons > button:hover {
+    cursor: pointer;
+}

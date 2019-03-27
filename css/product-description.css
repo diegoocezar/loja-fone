@@ -21,6 +21,10 @@
     margin-left: 7px;
 }
 
+.product-description > .item.-star img:hover {
+    cursor: pointer;
+}
+
 .product-description > .item.-info {
   width: 200px;
   text-align: right;
