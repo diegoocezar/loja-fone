@@ -5,6 +5,13 @@
      position: relative; 
 }
 
+.product-wrap .heart {
+    position: absolute;
+    top: 0;
+    transform: translate(calc(-100% + -47px), 9px);
+    
+}
+
 .product-wrap > .buttons {
     position: absolute;
     bottom: 0;
