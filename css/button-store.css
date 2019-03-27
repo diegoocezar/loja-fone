@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+.button-store:hover {
+    color: #252c41;
+    background-color: #fff;
+}
+
 
 .button-store.-second {
     width: 218px;
@@ -20,6 +25,11 @@
     background-color: transparent;
     border: 2px solid #fff;
     margin-right: 38px;
+}
+
+.button-store.-second:hover {
+    background-color: #fff;
+    color: #e24647;
 }
 
 .button-store > button,
