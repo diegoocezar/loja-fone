@@ -5,7 +5,7 @@
 
 .product-description > .title {
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     }
 
 .product-description > .item {
@@ -33,12 +33,14 @@
     margin-bottom: 30px;
 }
 
-.product-description > .text.-more {
-    margin-bottom: 98px;
-}
-
 .product-description .action {
     text-decoration: none;
     color: inherit;
 }
+
+/*.stars > li{
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-right: 9px;
+}*/
 
