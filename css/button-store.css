@@ -11,11 +11,19 @@
     border: none;
     background: #252c41;
     box-sizing: border-box;
+    cursor: pointer;
+
+    transition: all .3s linear;
 }
 
-.button-store:hover {
+.button-store:hover,
+.button-store:focus {
     color: #252c41;
     background-color: #fff;
+}
+
+.button-store:active {
+    transform: scale(.9);
 }
 
 
@@ -27,9 +35,10 @@
     margin-right: 38px;
 }
 
-.button-store.-second:hover {
-    background-color: #fff;
+.button-store.-second:hover,
+.button-store.-second:focus {
     color: #e24647;
+    background-color: #fff;
 }
 
 .button-store > button,
@@ -41,6 +50,3 @@
     text-decoration: none;
 }
 
-.buttons > button:hover {
-    cursor: pointer;
-}

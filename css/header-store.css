@@ -11,11 +11,12 @@
     font-size: 40px;
     float: left;
     text-transform: uppercase;
-}
-
-.header-store > .title:hover {
     cursor: pointer;
 }
+
+/*.header-store > .title:hover {
+    cursor: pointer;
+}*/
 
 .header-store > .navigation {
     font-family: 'Segoe UI', "Roboto", sans-serif;
