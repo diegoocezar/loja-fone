@@ -25,6 +25,7 @@
 }
 
 .header-store .action {
+    box-sizing: border-box;
     text-decoration: none;
     color:inherit;
     margin-right: 60px;
@@ -32,6 +33,11 @@
 
 .header-store .action.-last {
     margin-right: 0;
+}
+
+.header-store .action:hover {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #fff;
 }
 
 .header-store [type="search"]{
