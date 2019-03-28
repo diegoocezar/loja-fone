@@ -3,26 +3,46 @@
     
 }
 
+/* Define tamanho da fonte e margem inferior do elemento com classe .tittle que seja filho direto do objeto com classe .product-description */
 .product-description > .title {
     font-size: 25px;
     margin-bottom: 50px;
-    }
+}
 
+/* Define tamanho da fonte e margem inferior do elemento com classe .item que seja filho direto do objeto com classe .product-description */
 .product-description > .item {
     font-size: 20px;
     margin-bottom: 28px;
 }
 
+/* Define posicionamento e efeito de pointer (mão) no mouse para o elemento com classe .heart que seja filho direto do objeto com classe .product-description */
+.product-description > .heart {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    transform: translate(calc(-100% + -47px), 9px); 
+}
+
+/* Define efeito de hover para o elemento com classe .heart que seja filho direto do objeto com classe .product-description */
+.product-description > .heart:hover {
+    position: absolute;
+    top: 0;
+    transform: translate(calc(-100% + -47px), 9px) scale(1.5);
+}
+
+/* Define margem inferior para o elemento com classe .-star e classe .item e seja filho direto de .product-description */
 .product-description > .item.-star {
     margin-bottom: 10px;
 }
 
+/* Define margem esquerda para o elemento com classe .item que seja irmão imediato de um elemento com as classes .-star e .item e filho direto de .product-description */
 .product-description > .item.-star + .item {
     margin-left: 7px;
 }
 
 .product-description > .item.-star img:hover {
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .product-description > .item.-info {
