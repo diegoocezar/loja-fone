@@ -1,6 +1,7 @@
 .header-store {
     
     color: #fff;
+    
     overflow: hidden;
     margin-bottom: 138px;
     margin-left: 60px;
@@ -14,32 +15,6 @@
     cursor: pointer;
 }
 
-/*.header-store > .title:hover {
-    cursor: pointer;
-}*/
-
-.header-store > .navigation {
-    font-family: 'Segoe UI', "Roboto", sans-serif;
-    float: right;
-    font-size: 21px;
-}
-
-.header-store .action {
-    box-sizing: border-box;
-    text-decoration: none;
-    color:inherit;
-    margin-right: 60px;
-}
-
-.header-store .action.-last {
-    margin-right: 0;
-}
-
-.header-store .action:hover {
-    padding-bottom: 6px;
-    border-bottom: 1px solid #fff;
-}
-
 .header-store [type="search"]{
     width: 360px;
     background-color: transparent;
@@ -50,8 +25,48 @@
     font-size: 20px;
     padding: 8px;
     margin-right: 65px;
+    vertical-align: bottom;
 }
 
 .header-store [type="search"]::placeholder {
     color: #fff;
 }
+
+
+.header-store > .navigation {
+  
+    font-family: 'Segoe UI', "Roboto", sans-serif;
+    float: right;
+    font-size: 21px;
+}
+
+.header-store .action {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color:inherit;
+    margin-right: 60px;
+    position: relative;
+}
+
+.header-store .action.-last {
+    margin-right: 0;
+}
+
+.header-store .action::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s linear;
+}
+
+.header-store .action:hover::after{
+    transform: scaleX(1);
+}
+
+
