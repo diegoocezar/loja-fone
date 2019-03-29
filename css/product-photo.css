@@ -1,9 +1,40 @@
 .product-photo {
     display: inline-block;
-    width: 554px;
+    
     background-color: #fff;
     vertical-align: middle;
     border-radius: 0 150px 150px 0;
     margin-right: 157px;
     
 }
+
+@media (max-width: 1325px){
+    .product-photo{
+        margin-right: 140px;
+        
+    }
+}
+
+@media (max-width: 1311px){
+    .product-photo{
+        display: block;
+        margin-right: 0;
+        border-radius: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:711px){
+    .product-photo{
+        margin-right: 0;
+        
+    }
+}
+
+@media (max-width: 560px){
+    .product-photo > .photo{
+        width: 100%;
+    }
+}
+

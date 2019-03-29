@@ -71,5 +71,33 @@
     color: inherit;
 }
 
+@media (max-width: 1311px){
+    .product-description {
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+    }
 
+    .product-description > .title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .product-description > .item.-star {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .product-description > .item.-star + .item {
+        padding-top: 4px;
+    }
+}
+
+@media (max-width: 720px){
+    .product-description {
+        width: 90%;
+        min-width: auto;
+
+    }
+}
 
