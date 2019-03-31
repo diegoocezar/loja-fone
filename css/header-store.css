@@ -93,6 +93,8 @@
 @media (max-width: 1010px){
     .header-store {
         padding-left: 0;
+        margin-bottom: 80px;
+
         
     }
     .header-store [type="search"]{
@@ -104,6 +106,7 @@
     .header-store {
         margin-left: 30px;
         margin-right: 30px;
+
     }
 }
 
@@ -150,6 +153,8 @@
     .header-store {
         margin-left: 0;
         margin-right: 0px;
+        margin-bottom: 40px;
+        
     }
 
     .header-store > .navigation{
