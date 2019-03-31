@@ -29,7 +29,7 @@
 }
 
 .header-store [type="search"]::placeholder {
-    color: #fff;
+    color: inherit;
 }
 
 
