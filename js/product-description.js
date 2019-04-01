@@ -1,21 +1,20 @@
-// const heart = document.querySelector(".heart");
+const $heart = document.querySelector(".-heart");
 
-// heart.addEventListener("click", function(){
-//     heart.classList.add("-heart");
-// })
+const $firstStar = document.querySelectorAll(".star");
+
+$heart.addEventListener("click", function(){
+    $heart.classList.toggle("-active");
+})
 
 
-//Desafio básico: pegar o evento de click no botão "Adiciona no carrinho" e exibir no console
-//Desafio intermediário: Exibir uma mensagem ao clicar no botão com o texto "ae"
-//No desafio intermediário optei por exibir tanto no console quanto no alert.
-//Desafio avançado: Modificar o texto da Nav onde está escrito "Carrinho(10)" ao clicar no botão "Adiciona no carrinho".
-const $cart = document.querySelector(".-second");
-const $navigationCart = document.querySelector(".-last");
+console.log($firstStar[1]);
 
-$cart.addEventListener("click", handleClick);
-
-function handleClick(){
-    $navigationCart.textContent = "Carrinho (11)";
+for (var i=0; i<5; i++){
+    console.log (i);
+    $firstStar[i].addEventListener("click", function(){
+        $firstStar[i].classList.toggle("-active");
+    });
+    
 }
 
 
