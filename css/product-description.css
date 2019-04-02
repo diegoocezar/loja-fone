@@ -116,6 +116,10 @@
         text-align: center;
     }
 
+    .product-description > .-heart {
+        transform: none;
+    }
+
     .product-description > .item.-star {
         float: left;
         margin-right: 10px;
@@ -125,9 +129,7 @@
         padding-top: 4px;
     }
 
-    .product-description > .-heart {
-        transform: none;
-    }
+    
 }
 
 @media (max-width: 720px){
@@ -139,8 +141,11 @@
 }
 
 @media (max-width: 500px){
+    .product-description > .title {
+        margin-bottom: 10px;
+    }
     .product-description > .-heart {
-        transform: translateY(100%);
+        position:static;
     }
 }
 

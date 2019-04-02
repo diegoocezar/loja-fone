@@ -15,24 +15,6 @@
     cursor: pointer;
 }
 
-.header-store [type="search"]{
-    width: 360px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
-    font-family: Arial, "Roboto", sans-serif;
-    font-size: 20px;
-    padding: 8px;
-    margin-right: 65px;
-    vertical-align: bottom;
-}
-
-.header-store [type="search"]::placeholder {
-    color: inherit;
-}
-
-
 .header-store > .navigation {
   
     font-family: 'Segoe UI', "Roboto", sans-serif;
@@ -97,9 +79,6 @@
 
         
     }
-    .header-store [type="search"]{
-        display: none;
-    }
 }
 
 @media (max-width: 955px){
@@ -157,7 +136,7 @@
         
     }
 
-    .header-store > .navigation{
+    .header-store .action{
         display: none;
     }
 }

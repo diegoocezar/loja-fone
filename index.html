@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/container-store.css">
     <link rel="stylesheet" href="css/header-store.css">
+    <link rel="stylesheet" href="css/input-search.css">
     <link rel="stylesheet" href="css/product-photo.css">
     <link rel="stylesheet" href="css/product-wrap.css">
     <link rel="stylesheet" href="css/product-description.css">
@@ -25,7 +26,12 @@
             
         
             <nav class="navigation">
-                <input type="search" placeholder="Busca">
+                <form class="input-search ">
+                    <input class="content" type="search" placeholder="Busca" ><!--
+                    --><input class="icon -active" type="image" src="img/search.svg"><!--
+                    --><input class="icon" type="image" src="img/close.svg">
+                </form>
+
                 <a class="action" href="http://collabcode.training">Produtos </a>
                 <a class="action" href="http://collabcode.training">Serviços </a>
                 <a class="action -last" href="http://collabcode.training">Carrinho (10) </a>
@@ -92,8 +98,10 @@
     
     </div>
     
-    <script src="js/product-description.js"></script>
+    <script src="js/input-search.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/header-store.js"></script>
+
 
 </body>
 </html>
