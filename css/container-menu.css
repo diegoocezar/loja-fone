@@ -1,0 +1,38 @@
+ @media (max-width:335px){
+    .container-menu {
+       
+        text-align: left;
+        display: block;
+    } 
+
+    .toggle-icon,
+    .toggle-icon::before,
+    .toggle-icon::after {
+        content: "";
+        width: 30px;
+        height: 2px;
+        position: fixed;
+        background-color: #fff;
+        border: #000;
+        border-radius: 2em;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+
+    .toggle-icon::before{
+        position: absolute;
+        left: 0;
+        margin-top: -.4em;
+    }
+
+    .toggle-icon::after {
+        position: absolute;
+        left: 0;
+        margin-top: .4em;
+    }
+
+    .container-menu.-active{
+       
+    }
+
+}

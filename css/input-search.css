@@ -67,3 +67,9 @@
         width: 85vw;
     }
 }
+
+@media (max-width: 335px){
+    .input-search > .content {
+        width: 75vw;
+    }
+}
