@@ -171,8 +171,40 @@
         
     }
 
-    .header-store .item{
-        display: none;
+    .header-store .item.-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        text-indent: -9999px;
+        background: url(../img/menu.svg) #fff no-repeat center;
+    }
+
+    .header-store > .title{
+        margin-bottom: 0;
+    }
+
+    .header-store .list {
+        display: block;
+        background-color: #fff;
+        color: #000;
+        position: absolute;
+        width: 100vw;
+        padding: 30px 0 20px;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    .header-store .item.-menu {
+        transform: translateX(-100%);
+    }
+
+    .header-store .item {
+        display: block;
     }
 }
 
