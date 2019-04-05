@@ -49,6 +49,7 @@
 
     .input-search > .icon.-active {
         display: inline-block;
+        border-radius: 0 10px 10px 0;
     }
 
 
