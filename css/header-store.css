@@ -181,6 +181,7 @@
         box-sizing: border-box;
         text-indent: -9999px;
         background: url(../img/menu.svg) #fff no-repeat center;
+        border-radius: 10px 0 0 10px;
     }
 
     .header-store > .title{
