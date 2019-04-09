@@ -7,7 +7,7 @@ body {
 }
 
 @media (max-width: 335px){
-    body{
+    /* body{
        overflow-x: hidden;
-    }
+    } */
 }
