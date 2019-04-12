@@ -1,6 +1,6 @@
 .product-wrap {
     display: inline-block;
-    width: 554px;
+    width: 454px;
     vertical-align: middle;
      position: relative; 
 }
@@ -9,7 +9,16 @@
 .product-wrap > .buttons {
     position: absolute;
     bottom: 0;
-    transform: translateY(calc(100% + 98px))
+    transform: translateY(calc(100% + 98px));
+    width: 100%;
+}
+
+.product-wrap > .buttons > .button-store {
+    float: right;
+}
+
+.product-wrap > .buttons > .button-store.-second {
+    float: left;
 }
 
 @media (max-width: 1311px){
@@ -25,4 +34,10 @@
         text-align: center;
         transform: none;
     }
+
+    .product-wrap > .buttons > .button-store,
+    .product-wrap > .buttons > .button-store.-second {
+        float: none;
+    }
+    
 }
